@@ -38,12 +38,12 @@ export default function Profile() {
               <h1>
                 {" "}
                 <Typical loop={Infinity} steps={[
-                  'Ethusiatic Dev', 1000,
-                  'Full Stack Developer', 1000,
-                  'MERN Stack Dev', 1000,
-                  'Cross Platform v', 1000,
-                  'Nextjs Developer', 1000,
-                ]} />
+                  'Ethusiatic Dev', 500,
+                  'Full Stack Developer', 500,
+                  'MERN Stack Dev', 500,
+                  'Cross Platform v', 500,
+                  'Nextjs Developer', 500,
+                ]} wrapper="p" />
               </h1>
             </span>
           </div>
