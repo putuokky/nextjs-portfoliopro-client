@@ -8,21 +8,23 @@ export default function Profile() {
       <div className='profile-parent'>
         <div className='profile-details'>
           <div className='colz'>
-            <Link href='#'>
-              <a target='_blank'><AiFillFacebook /></a>
-            </Link>
-            <Link href='#'>
-              <a target='_blank'><AiFillGooglePlusSquare /></a>
-            </Link>
-            <Link href='#'>
-              <a target='_blank'><AiFillInstagram /></a>
-            </Link>
-            <Link href='#'>
-              <a target='_blank'><AiFillYoutube /></a>
-            </Link>
-            <Link href='#'>
-              <a target='_blank'><AiFillTwitterSquare /></a>
-            </Link>
+            <div className='colz-icon'>
+              <Link href='#'>
+                <a target='_blank'><AiFillFacebook /></a>
+              </Link>
+              <Link href='#'>
+                <a target='_blank'><AiFillGooglePlusSquare /></a>
+              </Link>
+              <Link href='#'>
+                <a target='_blank'><AiFillInstagram /></a>
+              </Link>
+              <Link href='#'>
+                <a target='_blank'><AiFillYoutube /></a>
+              </Link>
+              <Link href='#'>
+                <a target='_blank'><AiFillTwitterSquare /></a>
+              </Link>
+            </div>
           </div>
 
           <div className='profile-details-name'>
@@ -45,9 +47,27 @@ export default function Profile() {
                   'Nextjs Developer', 500,
                 ]} wrapper="p" />
               </h1>
+              <span className='profile-role-tagline'>
+                Knack of building applications with front and back end operations.
+              </span>
             </span>
           </div>
 
+          <div className='profile-optins'>
+            <button className='btn primary-btn'>
+              {""}
+              Hire Me{" "}
+            </button>
+            <Link href='/ehizcv.pdf'>
+              <a download="Ehiedu ehizcv.pdf">
+                <button className='btn highlighted-btn'>Get Resume</button>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className='profile-picture'>
+          <div className='profile-picture-background'></div>
         </div>
       </div>
     </div>
